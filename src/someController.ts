@@ -1,3 +1,4 @@
+import { type } from "os";
 import {
   Controller,
   Get,
@@ -9,7 +10,14 @@ export class SomeController extends Controller {
 
   @Get()
   public async getValue() {
-    const a: number = 5
+
+    /*
+     * @isInt
+     * @tsoaModel
+     */
+    type Int = number
+
+    const a: Int = 5
     return a
   }
 }
