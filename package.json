@@ -1,0 +1,16 @@
+{
+  "name": "tsoa-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Petr Kubes <petrkubes1997@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "tsoa": "^5.1.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.15.6",
+    "typescript": "^5.0.2"
+  }
+}
